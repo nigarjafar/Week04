@@ -1,0 +1,445 @@
+body {
+  font-family: 'Karla';
+  letter-spacing: 1px;
+  color: #23282E; }
+
+.col-centered {
+  float: none;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 3px 0;
+  padding: 0px; }
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 0px; }
+
+h6 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0; }
+
+p {
+  font-size: 14px;
+  margin: 5px 0px;
+  line-height: 24px;
+  letter-spacing: 0px; }
+
+.button-custom {
+  padding: 0px 26px;
+  height: 38px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14.5px;
+  background-color: #28C0DF; }
+  .button-custom:hover {
+    color: white; }
+
+.pageSlider, #servicePage #serviceSlider {
+  background-color: #8B8B8B;
+  padding: 110px;
+  margin-bottom: 100px;
+  color: white;
+  text-transform: uppercase; }
+  .pageSlider span, #servicePage #serviceSlider span {
+    font-size: 30px; }
+  .pageSlider h1, #servicePage #serviceSlider h1 {
+    font-size: 48px; }
+  .pageSlider h6, #servicePage #serviceSlider h6 {
+    font-size: 14px; }
+
+#header {
+  color: #a4a4a4; }
+  #header #top {
+    line-height: 50px;
+    background-color: #E3ECEE; }
+    #header #top div span {
+      font-size: 13px;
+      text-transform: uppercase; }
+    #header #top div i {
+      margin-top: 2px;
+      margin-right: 8px; }
+    #header #top div:nth-child(2) {
+      padding-left: 27px;
+      border-left: 1px solid #d7d7d7; }
+      #header #top div:nth-child(2) i {
+        font-size: 20px; }
+    #header #top div:nth-child(3) {
+      padding-right: 27px; }
+      #header #top div:nth-child(3) i {
+        font-size: 25px; }
+  #header .navbar {
+    line-height: 35px;
+    padding: 20px 18px 0px 0px; }
+    #header .navbar ul .active {
+      color: black; }
+    #header .navbar ul li {
+      line-height: 75px; }
+      #header .navbar ul li a {
+        text-transform: uppercase;
+        font-size: 14.5px;
+        padding: 13px 23px;
+        color: inherit; }
+        #header .navbar ul li a:hover {
+          border-radius: 25px;
+          background-color: #28C0DF;
+          color: white; }
+
+#slider {
+  background-color: #8B8B8B; }
+  #slider div {
+    color: white;
+    text-transform: uppercase; }
+    #slider div .row:first-child {
+      height: auto;
+      font-size: 30px;
+      margin-top: 217px; }
+    #slider div .row:nth-child(2) {
+      margin-top: 70px; }
+      #slider div .row:nth-child(2) h1 {
+        font-size: 48px;
+        font-weight: bold;
+        letter-spacing: 0px; }
+      #slider div .row:nth-child(2) h6 {
+        font-size: 14px; }
+    #slider div .row:nth-child(3) {
+      margin-top: 195px; }
+      #slider div .row:nth-child(3) div {
+        height: 73px;
+        width: 73px;
+        border: 3px solid white;
+        border-radius: 50%;
+        padding: 15px 0;
+        position: relative;
+        margin-left: 48.9%; }
+        #slider div .row:nth-child(3) div span {
+          font-size: 14px; }
+        #slider div .row:nth-child(3) div::after {
+          content: "";
+          height: 0px;
+          width: 0px;
+          border-top: 8px solid white;
+          border-left: 6px solid transparent;
+          border-right: 6px solid transparent;
+          position: absolute;
+          bottom: -10px;
+          left: 28px; }
+    #slider div .row:last-child {
+      margin-top: 17px;
+      margin-bottom: 45px; }
+      #slider div .row:last-child div {
+        width: 75px;
+        height: auto;
+        margin: 0 auto; }
+        #slider div .row:last-child div div {
+          height: 16px;
+          width: 16px;
+          margin: 0 4px;
+          border: 3px solid #a4a4a4;
+          border-radius: 50%;
+          float: left; }
+          #slider div .row:last-child div div:last-child {
+            border-color: white; }
+
+#services {
+  padding-top: 100px; }
+  #services .rectangle {
+    height: 301px;
+    background-color: #8B8B8B;
+    color: white;
+    margin-top: 50px;
+    text-transform: uppercase; }
+    #services .rectangle div {
+      padding-top: 120px; }
+      #services .rectangle div span {
+        font-size: 30px;
+        font-weight: 700; }
+  #services .startup {
+    margin-bottom: 55px; }
+    #services .startup img {
+      float: left;
+      margin: 0px 29px 15px 0px; }
+
+#footer #summary .summaryTop {
+  height: auto;
+  padding: 100px 0px;
+  border-bottom: 1px solid #e4e4e4; }
+  #footer #summary .summaryTop h1 {
+    font-size: 30px; }
+    #footer #summary .summaryTop h1 font {
+      color: #F49936; }
+  #footer #summary .summaryTop h6 {
+    font-size: 13px;
+    text-transform: uppercase; }
+  #footer #summary .summaryTop button {
+    width: 141px;
+    height: 38px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: white;
+    margin: 30px 8px;
+    font-size: 14.5px; }
+    #footer #summary .summaryTop button:nth-child(3) {
+      background-color: #28C0DF; }
+    #footer #summary .summaryTop button:last-child {
+      background-color: #F49936; }
+#footer #summary .summaryBottom {
+  padding: 60px 0px;
+  position: relative;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 35px;
+  font-weight: 400;
+  color: #a4a4a4;
+  border-bottom: 1px solid #e4e4e4; }
+  #footer #summary .summaryBottom h2 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: black; }
+  #footer #summary .summaryBottom img {
+    margin-top: 20px; }
+  #footer #summary .summaryBottom span font {
+    color: black; }
+  #footer #summary .summaryBottom ul {
+    list-style-type: none;
+    padding-left: 0px; }
+    #footer #summary .summaryBottom ul i {
+      margin-left: 5px; }
+  #footer #summary .summaryBottom .input-group {
+    text-transform: uppercase;
+    margin-top: 7px; }
+    #footer #summary .summaryBottom .input-group input {
+      line-height: 24px;
+      padding: 20px 11px;
+      border-radius: 0; }
+    #footer #summary .summaryBottom .input-group button {
+      height: 42px;
+      width: 42px;
+      background-color: #28C0DF;
+      color: white;
+      border-radius: 0px; }
+  #footer #summary .summaryBottom .triangleOne {
+    height: 0px;
+    width: 0px;
+    border-right: 150px solid transparent;
+    border-bottom: 335px solid #F49936;
+    margin-left: -15px;
+    position: absolute;
+    bottom: 0px; }
+#footer #copyright {
+  padding: 10px 0px 60px 0px;
+  position: relative;
+  font-size: 14px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #a4a4a4; }
+  #footer #copyright .triangleTwo {
+    height: 0px;
+    width: 0px;
+    border-left: 200px solid transparent;
+    border-bottom: 350px solid #28C0DF;
+    margin-right: -15px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px; }
+
+#team {
+  padding: 100px 0px;
+  background-color: #E3ECEE; }
+  #team .team-member {
+    height: auto; }
+    #team .team-member div:first-child {
+      height: 276px;
+      padding-top: 120px;
+      background-color: #8B8B8B; }
+      #team .team-member div:first-child span {
+        text-transform: uppercase;
+        color: white;
+        font-size: 18px;
+        font-weight: 700; }
+    #team .team-member div:last-child {
+      height: 122px;
+      padding: 30px;
+      background-color: white; }
+      #team .team-member div:last-child span:first-child {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 700; }
+      #team .team-member div:last-child span:nth-child(3) {
+        color: #F49936;
+        font-size: 14px; }
+      #team .team-member div:last-child i {
+        font-size: 14px;
+        color: #a4a4a4;
+        padding: 10px 10px 0 0; }
+
+#pricing {
+  padding: 100px 0px; }
+  #pricing .price div {
+    padding: 17px 0px;
+    height: 422px;
+    border: 1px solid #f1f1f1;
+    position: relative;
+    transition: all 0.3s ease; }
+    #pricing .price div:hover {
+      box-shadow: 0px 0px 137px -11px rgba(0, 0, 0, 0.4); }
+    #pricing .price div h1 {
+      font-weight: 700;
+      font-size: 20px;
+      text-transform: uppercase;
+      padding: 15px;
+      margin: 0px; }
+    #pricing .price div h2 {
+      font-size: 18px;
+      color: #727272;
+      border-top: 1px solid #f1f1f1;
+      border-bottom: 1px solid #f1f1f1;
+      padding: 20px 0;
+      margin: 0px; }
+      #pricing .price div h2 font {
+        color: #F49936; }
+    #pricing .price div ul {
+      list-style-type: none;
+      padding: 0;
+      padding-top: 40px; }
+      #pricing .price div ul li {
+        font-size: 15px;
+        color: #585858;
+        line-height: 36px;
+        letter-spacing: 0px; }
+    #pricing .price div .button-custom {
+      position: absolute;
+      bottom: 37px;
+      left: 80px; }
+    #pricing .price div img {
+      position: absolute;
+      top: 0px;
+      left: 0px; }
+
+#clients {
+  background-color: #E3ECEE;
+  padding: 100px 0px; }
+  #clients .row .customerOpinion {
+    padding: 25px 30px 25px 20px;
+    border-right: 2px solid #e4e4e4; }
+    #clients .row .customerOpinion i {
+      margin-right: 40px;
+      margin-bottom: 150px;
+      float: left; }
+    #clients .row .customerOpinion p {
+      margin: 0px;
+      letter-spacing: 1px;
+      padding: 0px 0px 30px;
+      font-style: italic;
+      font-size: 17px;
+      color: #585858;
+      font-family: 'Harmattan', sans-serif; }
+    #clients .row .customerOpinion span font {
+      text-transform: uppercase;
+      color: #F49936; }
+  #clients .row .circles {
+    padding-top: 25px; }
+    #clients .row .circles .row:first-child div {
+      height: 132px;
+      width: 132px;
+      background-color: #8B8B8B;
+      border-radius: 50%;
+      float: left;
+      margin-left: 30px;
+      padding: 47px 0px; }
+      #clients .row .circles .row:first-child div:first-child {
+        background-color: #F49936; }
+      #clients .row .circles .row:first-child div span {
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: white; }
+    #clients .row .circles .row:last-child div {
+      margin-left: 225px;
+      height: 20px;
+      padding: 0; }
+      #clients .row .circles .row:last-child div div {
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        background-color: #b3ccd1;
+        float: left;
+        margin: 18px 4px; }
+        #clients .row .circles .row:last-child div div:first-child {
+          background-color: #28C0DF; }
+
+#features {
+  position: relative;
+  padding: 100px 0;
+  border-bottom: 1px solid #e4e4e4; }
+  #features .row {
+    margin-top: 60px; }
+    #features .row div img {
+      float: left;
+      margin-right: 30px;
+      margin-bottom: 20px; }
+  #features .triangleOne {
+    width: 0px;
+    height: 0px;
+    border-bottom: 110px solid #F49936;
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+    position: absolute;
+    bottom: 0px;
+    right: 0px; }
+  #features .triangleTwo {
+    width: 0px;
+    height: 0px;
+    border-bottom: 79px solid #28C0DF;
+    border-right: 53px solid transparent;
+    border-left: 53px solid transparent;
+    position: absolute;
+    bottom: 0px;
+    right: 100px; }
+
+#servicePage .serviceInform {
+  padding: 60px 0px;
+  border-bottom: 1px solid #e4e4e4; }
+  #servicePage .serviceInform:last-child {
+    border: none; }
+  #servicePage .serviceInform h6 {
+    border-left: 3px solid #28C0DF;
+    display: inline-block;
+    padding-left: 6px;
+    margin-bottom: 15px; }
+  #servicePage .serviceInform i {
+    font-size: 120px; }
+  #servicePage .serviceInform button {
+    margin-top: 30px; }
+  #servicePage .serviceInform:hover i {
+    color: #F49936; }
+  #servicePage .serviceInform:hover h6 {
+    border-color: #F49936; }
+  #servicePage .serviceInform:hover button {
+    background-color: #F49936; }
+#servicePage > div:nth-child(3) {
+  padding: 85px 0px;
+  background-color: #E3ECEE; }
+  #servicePage > div:nth-child(3) div {
+    padding-right: 0; }
+    #servicePage > div:nth-child(3) div i {
+      color: #F49936;
+      float: left;
+      margin-top: 20px;
+      font-weight: lighter; }
+    #servicePage > div:nth-child(3) div span:first-child {
+      font-size: 60px;
+      font-weight: 400; }
+    #servicePage > div:nth-child(3) div span:last-child {
+      font-size: 14px;
+      text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */
