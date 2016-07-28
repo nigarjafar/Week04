@@ -602,4 +602,46 @@ p {
       border-right: 20px solid transparent;
       border-left: 20px solid transparent; }
 
+#contactPage .container > .row:nth-child(2) {
+  height: 417px;
+  background: url("../../images/img11.png");
+  background-position: center; }
+#contactPage .container > .row:nth-child(3) .col-md-4 {
+  border-bottom: 1px solid #e4e4e4;
+  height: 300px;
+  padding: 75px 0px; }
+  #contactPage .container > .row:nth-child(3) .col-md-4 i {
+    width: 63px;
+    line-height: 63px;
+    border-radius: 50%;
+    border: 2px solid #28C0DF;
+    margin-bottom: 25px; }
+  #contactPage .container > .row:nth-child(3) .col-md-4 span {
+    text-transform: uppercase;
+    font-size: 16px; }
+#contactPage .container #contactForm {
+  padding: 75px 0px; }
+  #contactPage .container #contactForm .col-md-6:first-child {
+    padding-right: 8px; }
+  #contactPage .container #contactForm .col-md-6:last-child {
+    padding-left: 8px; }
+  #contactPage .container #contactForm h5 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700; }
+  #contactPage .container #contactForm .form-inline input, #contactPage .container #contactForm .form-inline textarea {
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 0;
+    background-color: #E5EFF1;
+    border: none;
+    box-shadow: none;
+    margin: 8px 0px; }
+  #contactPage .container #contactForm .form-inline input {
+    height: 48px; }
+  #contactPage .container #contactForm .form-inline button {
+    margin-top: 16px; }
+
 /*# sourceMappingURL=style.css.map */
