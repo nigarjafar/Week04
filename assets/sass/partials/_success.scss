@@ -1,0 +1,20 @@
+.success{
+       padding:85px 0px ;
+        background-color:$main-color;
+       div{ padding-right:0;
+           i{
+               color:$fourth-color;
+               float:left;
+               margin-top:20px;
+               font-weight:lighter;
+           }
+           span:first-child{
+               font-size: 60px;
+               font-weight: 400;
+           }
+           span:last-child{
+               font-size: 14px;
+               text-transform: uppercase;
+           }
+       }
+    }

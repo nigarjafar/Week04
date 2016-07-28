@@ -5,10 +5,18 @@
     .row{
         margin-top:60px;
         div{
-            img{
+            i{
                 float:left;
                 margin-right:30px;
                 margin-bottom:20px;
+                padding:12px 0px;
+                background-color:$main-color;
+                width:68px;
+                height: 68px;
+                &:hover{
+                    color:white;
+                    background-color:$fourth-color;
+                }
             }
         }
         
