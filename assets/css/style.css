@@ -32,8 +32,9 @@ p {
   letter-spacing: 0px; }
 
 .button-custom {
-  padding: 0px 26px;
+  text-align: center;
   height: 38px;
+  width: 140px;
   border-radius: 20px;
   text-transform: uppercase;
   color: white;
@@ -520,5 +521,31 @@ p {
 #aboutPage #features i {
   background-color: white;
   color: #23282E; }
+
+#newsDetails .container .row:nth-child(2) {
+  height: 428px;
+  background: url("../../images/img9.jpg");
+  background-position: center; }
+#newsDetails .container .row:last-child {
+  padding: 60px 60px 100px 60px;
+  height: 475px;
+  background-color: #E3ECEE;
+  position: reative; }
+  #newsDetails .container .row:last-child span:first-child {
+    font-size: 48px; }
+  #newsDetails .container .row:last-child span:nth-child(2) {
+    font-size: 16px; }
+  #newsDetails .container .row:last-child h4 {
+    margin-top: 30px;
+    font-size: 20px; }
+  #newsDetails .container .row:last-child button {
+    margin: 55px 9px 0px; }
+  #newsDetails .container .row:last-child:before {
+    position: absolute;
+    left: calc(50% - 25px);
+    margin-top: -80px;
+    border-bottom: 20px solid #E3ECEE;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent; }
 
 /*# sourceMappingURL=style.css.map */

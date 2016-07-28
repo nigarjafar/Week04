@@ -1,3 +1,4 @@
+//Footer buttonlara class ver
 @import 'partials/variables';
 body{
     font-family: 'Karla';
@@ -40,8 +41,9 @@ p{
 }
 
 .button-custom{
-    padding: 0px 26px;
+    text-align:center;
     height:38px;
+    width:140px;
     border-radius:20px;
     text-transform: uppercase;
     color:white;
@@ -84,3 +86,4 @@ p{
 @import 'pages/_services';
 @import 'pages/_portfolio';
 @import 'pages/_about';
+@import 'pages/_newsdetails';
