@@ -1,0 +1,90 @@
+#newsPage{
+    .container{
+        .row{
+            .col-md-4:first-child , .col-md-4:last-child{
+                div{
+                    height:378px;
+                    &:nth-child(odd){
+                        background: url('../../images/img10.png');
+                    }
+                    &:nth-child(even){
+                        padding:20px 40px;
+                        background-color:$main-color;
+                        position:relative;
+                        
+                        span:first-child{
+                            font-size: 48px;
+                        }
+                        span:nth-child(2){
+                            font-size:16px;
+                            margin-bottom:10px;
+                        }
+                        h4{
+                            font-size: 20px;
+                            margin:20px;
+                        }
+                        
+                        button{
+                            margin-top:30px;
+                        }
+                        
+                        &::after{
+                            content:"";
+                            position:absolute;
+                            left:calc(50% - 20px);
+                            top:-20px;
+                            border-bottom:20px solid $main-color;
+                            border-right:20px solid transparent;
+                            border-left:20px solid transparent;
+                        }
+                        
+                    }      
+                    
+                } 
+                    
+            }
+            .col-md-4:nth-child(2){
+                div{
+                    height:378px;
+                    &:nth-child(even){
+                        background: url('../../images/img10.png');
+                    }
+                    &:nth-child(odd){
+                        padding:20px 40px;
+                        background-color:$main-color;
+                        position:relative;
+                        
+                        span:first-child{
+                            font-size: 48px;
+                        }
+                        span:nth-child(2){
+                            font-size:16px;
+                            margin-bottom:10px;
+                        }
+                        h4{
+                            font-size: 20px;
+                            margin:20px;
+                        }
+                        
+                        button{
+                            margin-top:30px;
+                        }
+                        &::after{
+                            content:"";
+                            position:absolute;
+                            left:calc(50% - 20px);
+                            bottom:0px;
+                            bottom:-20px;
+                            border-top:20px solid $main-color;
+                            border-right:20px solid transparent;
+                            border-left:20px solid transparent;
+                        }
+                        
+                    }      
+                    
+                } 
+            }
+            
+        }
+    }
+}

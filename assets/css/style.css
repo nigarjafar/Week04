@@ -60,7 +60,7 @@ p {
   color: #a4a4a4; }
   #header #top {
     line-height: 50px;
-    background-color: #E3ECEE; }
+    background-color: #E5EFF1; }
     #header #top div span {
       font-size: 13px;
       text-transform: uppercase; }
@@ -254,7 +254,7 @@ p {
 
 #team {
   padding: 100px 0px;
-  background-color: #E3ECEE; }
+  background-color: #E5EFF1; }
   #team .team-member {
     height: auto; }
     #team .team-member div:first-child {
@@ -326,7 +326,7 @@ p {
       left: 0px; }
 
 #clients {
-  background-color: #E3ECEE;
+  background-color: #E5EFF1;
   padding: 100px 0px; }
   #clients .row .customerOpinion {
     padding: 25px 30px 25px 20px;
@@ -371,7 +371,7 @@ p {
         height: 12px;
         width: 12px;
         border-radius: 50%;
-        background-color: #b3ccd1;
+        background-color: #b3d0d6;
         float: left;
         margin: 18px 4px; }
         #clients .row .circles .row:last-child div div:first-child {
@@ -388,7 +388,7 @@ p {
       margin-right: 30px;
       margin-bottom: 20px;
       padding: 12px 0px;
-      background-color: #E3ECEE;
+      background-color: #E5EFF1;
       width: 68px;
       height: 68px; }
       #features .row div i:hover {
@@ -415,7 +415,7 @@ p {
 
 .success {
   padding: 85px 0px;
-  background-color: #E3ECEE; }
+  background-color: #E5EFF1; }
   .success div {
     padding-right: 0; }
     .success div i {
@@ -529,7 +529,7 @@ p {
 #newsDetails .container .row:last-child {
   padding: 60px 60px 100px 60px;
   height: 475px;
-  background-color: #E3ECEE;
+  background-color: #E5EFF1;
   position: reative; }
   #newsDetails .container .row:last-child span:first-child {
     font-size: 48px; }
@@ -544,8 +544,62 @@ p {
     position: absolute;
     left: calc(50% - 25px);
     margin-top: -80px;
-    border-bottom: 20px solid #E3ECEE;
+    border-bottom: 20px solid #E5EFF1;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent; }
+
+#newsPage .container .row .col-md-4:first-child div, #newsPage .container .row .col-md-4:last-child div {
+  height: 378px; }
+  #newsPage .container .row .col-md-4:first-child div:nth-child(odd), #newsPage .container .row .col-md-4:last-child div:nth-child(odd) {
+    background: url("../../images/img10.png"); }
+  #newsPage .container .row .col-md-4:first-child div:nth-child(even), #newsPage .container .row .col-md-4:last-child div:nth-child(even) {
+    padding: 20px 40px;
+    background-color: #E5EFF1;
+    position: relative; }
+    #newsPage .container .row .col-md-4:first-child div:nth-child(even) span:first-child, #newsPage .container .row .col-md-4:last-child div:nth-child(even) span:first-child {
+      font-size: 48px; }
+    #newsPage .container .row .col-md-4:first-child div:nth-child(even) span:nth-child(2), #newsPage .container .row .col-md-4:last-child div:nth-child(even) span:nth-child(2) {
+      font-size: 16px;
+      margin-bottom: 10px; }
+    #newsPage .container .row .col-md-4:first-child div:nth-child(even) h4, #newsPage .container .row .col-md-4:last-child div:nth-child(even) h4 {
+      font-size: 20px;
+      margin: 20px; }
+    #newsPage .container .row .col-md-4:first-child div:nth-child(even) button, #newsPage .container .row .col-md-4:last-child div:nth-child(even) button {
+      margin-top: 30px; }
+    #newsPage .container .row .col-md-4:first-child div:nth-child(even)::after, #newsPage .container .row .col-md-4:last-child div:nth-child(even)::after {
+      content: "";
+      position: absolute;
+      left: calc(50% - 20px);
+      top: -20px;
+      border-bottom: 20px solid #E5EFF1;
+      border-right: 20px solid transparent;
+      border-left: 20px solid transparent; }
+#newsPage .container .row .col-md-4:nth-child(2) div {
+  height: 378px; }
+  #newsPage .container .row .col-md-4:nth-child(2) div:nth-child(even) {
+    background: url("../../images/img10.png"); }
+  #newsPage .container .row .col-md-4:nth-child(2) div:nth-child(odd) {
+    padding: 20px 40px;
+    background-color: #E5EFF1;
+    position: relative; }
+    #newsPage .container .row .col-md-4:nth-child(2) div:nth-child(odd) span:first-child {
+      font-size: 48px; }
+    #newsPage .container .row .col-md-4:nth-child(2) div:nth-child(odd) span:nth-child(2) {
+      font-size: 16px;
+      margin-bottom: 10px; }
+    #newsPage .container .row .col-md-4:nth-child(2) div:nth-child(odd) h4 {
+      font-size: 20px;
+      margin: 20px; }
+    #newsPage .container .row .col-md-4:nth-child(2) div:nth-child(odd) button {
+      margin-top: 30px; }
+    #newsPage .container .row .col-md-4:nth-child(2) div:nth-child(odd)::after {
+      content: "";
+      position: absolute;
+      left: calc(50% - 20px);
+      bottom: 0px;
+      bottom: -20px;
+      border-top: 20px solid #E5EFF1;
+      border-right: 20px solid transparent;
+      border-left: 20px solid transparent; }
 
 /*# sourceMappingURL=style.css.map */
