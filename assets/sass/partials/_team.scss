@@ -33,6 +33,20 @@
                         padding:10px 10px 0 0;
                     }
             }
+        
+            &:hover{
+                div:nth-child(2){
+                    background-color:$third-color;
+                    color:black;
+                    span{
+                        color:black;
+                    }
+                    i{
+                        color:white;
+                    }
+                }
+            }
+    
     }
             
 
