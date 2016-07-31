@@ -1,0 +1,87 @@
+ .blogLeftColumn{
+        .col-md-12{
+            h4{
+                font-size: 20px;
+                font-weight: 500;
+                margin-top:55px;
+            }
+            &:first-child{
+                padding-top:75px;
+                div{
+                    width:100%;
+                    padding:10px;
+                    height:44px;
+                    border:1px solid lighten($second-color, 35%);
+                    input{
+                        float:left;
+                        border:none;
+                    }
+                    i{
+                        color:$second-color;
+                        float:right;
+                    }
+                }
+            }
+            
+            &:nth-child(2){
+                ul{
+                    list-style-type: none;
+                    padding:0px;
+
+                    li{
+                        padding:17px 0px;
+                        a{
+                            text-transform: uppercase;
+                            float:left;
+                            color:$text-color;
+                            text-decoration: none;
+                        }
+                        i{
+                            float:right;
+                        }
+                        &:hover{
+                            a,i{
+                            color:$fourth-color;
+                            }
+                        }
+                    }
+                }
+            }
+            &:nth-child(3){
+                div{
+                    padding:20px 0px;
+                    img{
+                        float:left;
+                        margin-right:30px;
+                    }
+                    h5{
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        letter-spacing:0px;
+                        margin:0px;
+                        padding:10px 0px;
+                    }
+                    span{
+                        font{
+                            color:$fourth-color;
+                        }
+                    }
+                }
+            }
+            
+            &:last-child{
+                &>div{
+                    display:flex;
+                    flex-wrap:wrap;
+                    width:100%;
+                        div{
+                            padding:8px;
+                            background-color:$third-color;
+                            color:white;
+                            margin:5px;
+                        
+                        }
+                }
+            }
+        }
+    }

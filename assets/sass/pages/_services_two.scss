@@ -1,0 +1,66 @@
+#servicePage_two{
+    .list-group{
+        button{
+            padding:15px 35px;
+            height:87px;
+            border-radius:0px;
+            border:1px solid lighten($second-color,35%);
+            margin-bottom:0px;
+            div:first-child{
+                float:left;
+                width:48px;
+                padding:5px 0px;
+                
+            }
+            div:last-child{
+                float:left;
+                font-size: 16px;
+                border-left:3px solid $third-color;
+                padding:3px 17px;
+                margin:0px;
+                font-weight: 500;
+            }
+            &:hover, &:focus{
+                box-shadow:none;
+                border-color:$fourth-color;
+                background-color:white;
+                i{
+                    color:$fourth-color;
+                }
+                div{
+                    border-color:$fourth-color;
+                }
+            }
+        }
+    }
+    
+    .col-md-8{
+       
+            i{  font-size:110px;
+                color:$fourth-color;
+            }
+            h4{
+                font-size: 36px;
+                margin:35px;
+            }
+            p{
+                text-align:left;
+                padding:10px;
+            }
+        .col-md-11{
+            margin-top:60px;
+            border-left:3px solid $third-color;
+            p{
+                font-weight: 500;
+                font-size: 17px;
+            }
+        }
+        
+        button{
+            background-color:$fourth-color;
+            margin:60px 10px;
+            float:left;
+        }
+        
+    }
+}
