@@ -1,0 +1,81 @@
+#home2{
+    #slider{
+        .container-fluid{
+            .row:first-child{
+                margin-top:110px;
+            }
+            .row:nth-child(2){
+                h6{
+                    font-size: 24px;
+                }
+                h1{
+                    font-size: 60px;
+                }
+                button{
+                    background: $third-color;
+                }
+            }
+            
+            #newsletter{
+                position:relative;
+                padding:25px;
+                background:#404143;
+                margin-top:180px;
+                margin-bottom:30px;
+                
+                div{
+                    display:inline-block;
+                    h1{
+                        margin:0px;
+                        font-size: 22px;
+                    }
+                    h3{
+                        padding:1px;
+                        margin-bottom:1px;
+                    }
+                }
+               
+                form{
+                    float:right;
+                    display:inline-block;
+                    .form-group{
+                        margin:0px;
+                    }
+                    span{
+                        display:inline-block;
+                        font-size: 18px;
+                        color:white;
+                        padding-right:20px;
+                    
+                    }
+                    input{
+                        height:44px;
+                        width:330px;
+                        border-radius: 3px;
+                        text-transform: uppercase;
+                        border:none;
+                        
+                    }
+                    button{
+                        height:44px;
+                        width:190px;
+                        margin-top:-1px;
+                    }
+                }
+                
+                div:last-child{
+                    position:absolute;
+                    width:4px;
+                    height: 40px;
+                    background:$fourth-color;
+                    left:0;
+                    top:calc(50% - 20px);
+                }
+                
+               
+                
+            }
+        }
+    }
+}
+

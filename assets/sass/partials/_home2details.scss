@@ -15,6 +15,17 @@
         border-radius: 3px;
         background:$fourth-color;
     }
+    //Top
+    #home2{
+        #top{
+        background-color: $fifth-color;
+        line-height:40px;
+        color:$second-color;
+            font{
+                color:lighten($second-color,20%);
+            }
+        } 
+    }
     //What We Are
     #whatWeAre{
     padding:100px 0px;
