@@ -10,9 +10,9 @@
         
         .row:last-child{
             padding:60px 60px 100px 60px;
-            height: 475px;
+            min-height: 315px;
             background-color:$main-color;
-            position:reative;
+            position:relative;
             
             span:first-child{
                 font-size: 48px;

@@ -1,0 +1,58 @@
+@media (max-width: 767px) {
+    
+   #newsPage{
+       .container{
+           .row{
+               .col-md-4{
+                   div{
+                       height:320px !important;
+                       border-bottom:1px solid white;
+                   }
+               }
+           }
+       }
+   }
+    
+    #services{
+        .startup{
+            margin-top:15px;
+            .col-md-3{
+                padding-left:15px; 
+            }
+        }      
+    }
+    
+    #portfolioPage{
+        .row{
+            .col-md-3{
+                div{
+                    background:$second-color !important;
+                }
+                .hoverDiv{
+                    background:white !important;
+                }
+            }
+        }
+    }
+    
+    #newsletter{
+        form{
+            span{
+                display:none !important;
+            }
+            input{
+                display:block;
+                margin:5px 0 !important;
+                
+            }
+            button{
+                display:block;
+                 margin:5px 0!important;
+            }
+        }
+    }
+    
+        
+          
+      
+  }

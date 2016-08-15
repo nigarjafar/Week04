@@ -49,10 +49,10 @@
                 }
             }
             .row:last-child{
-                div{
-                    margin-left:225px;
+                &>div{
+                    
                     height:20px;
-                    padding:0;
+                   padding:0 30px;
                     
                     div{
                         height: 12px;

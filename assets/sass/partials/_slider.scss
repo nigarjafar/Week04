@@ -1,5 +1,6 @@
 #slider{
         background-color:$second-color;
+        padding:40px 0;
         div{
             color:white;
             text-transform: uppercase;
@@ -7,7 +8,7 @@
             .row:first-child{
                 height:auto;
                 font-size: 30px;
-                margin-top:217px;
+                margin-top:160px;
             }
             .row:nth-child(2){
                 margin-top:70px;
@@ -51,7 +52,7 @@
             }
             .row:last-child{
                 margin-top:17px;
-                margin-bottom:45px;
+                
                 div{
                     
                     width:75px;

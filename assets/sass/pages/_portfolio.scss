@@ -28,6 +28,7 @@
                     height:241px;
                     background: url('../../images/img1.jpg');
                     background-position: center;
+                    background-size:cover;
                     margin-bottom:30px;
                 }
             }
@@ -40,15 +41,18 @@
                     &:first-child{
                         height:323px;
                         background: url(../../images/img3.jpg);
+                        background-size:cover;
                     }
                     &:nth-child(2){
                         height: 130px;
                         background: url(../../images/img2.jpg);
+                        background-size:cover;
                     }
                     
                     &:nth-child(3), &:last-child{
                         height:150px;
                         background: url(../../images/img4.jpg);
+                        background-size:cover;
                     }
                 }
             }
@@ -61,10 +65,12 @@
                     &:first-child{
                         height: 173px;
                         background: url(../../images/img5.jpg);
+                        background-size:cover;
                     }
                     &:nth-child(2), &:last-child{
                         height: 373px;
                         background: url(../../images/img3.jpg);
+                        background-size:cover;
                     }
                     
                 }
@@ -78,10 +84,12 @@
                     &:first-child, &:nth-child(2){
                         height: 307px;
                         background: url(../../images/img6.jpg);
+                        background-size:cover;
                     }
                     &:last-child{
                         height: 347px;
                         background: url(../../images/img7.jpg);
+                        background-size:cover;
                     }
                 }
             }
@@ -100,6 +108,7 @@
                 margin-bottom:30px;
                 box-sizing: content-box;
                 background: url(../../images/img8.jpg);
+                background-size:cover;
             }
         }
     }

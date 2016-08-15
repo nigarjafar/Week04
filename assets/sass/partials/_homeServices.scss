@@ -17,11 +17,13 @@
         }
     }
     .startup{
-        margin-bottom:55px;
-        i{
-                float:left;
-                margin-right:30px;
-                margin-bottom:20px;
+        padding-bottom:50px;
+        height:auto;
+        clear:both;
+        .col-md-3{
+            padding-right:0px;
+            padding-left:30px;
+            i{
                 padding:12px 0px;
                 background-color:$main-color;
                 width:68px;
@@ -29,6 +31,13 @@
                 &:hover{
                     color:white;
                     background-color:$fourth-color;
-        }       }
+            } 
+        }
+             
+        }
+        .col-md-9{
+           padding-left:0px;
+            
+        }
     }
 }

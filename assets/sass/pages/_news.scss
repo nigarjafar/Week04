@@ -6,6 +6,9 @@
                     height:378px;
                     &:nth-child(odd){
                         background: url('../../images/img10.png');
+                        background-position:center;
+                        background-size:cover;
+                        
                     }
                     &:nth-child(even){
                         padding:20px 40px;
@@ -48,6 +51,8 @@
                     height:378px;
                     &:nth-child(even){
                         background: url('../../images/img10.png');
+                        background-position:center;
+                        background-size:cover;
                     }
                     &:nth-child(odd){
                         padding:20px 40px;

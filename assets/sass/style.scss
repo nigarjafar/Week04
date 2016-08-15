@@ -55,22 +55,7 @@ p{
                     
 };
 
-.pageSlider{
-    background-color:$second-color;
-    padding:110px;
-    margin-bottom:100px;
-    color:white;
-    text-transform: uppercase;
-    span{
-        font-size: 30px;
-    }
-    h1{
-        font-size: 48px;
-    }
-    h6{
-        font-size: 14px;
-    }
-}
+
 
 
 
@@ -91,6 +76,8 @@ p{
 @import 'partials/_clients_home2';
 @import 'partials/_blogHome2';
 @import 'partials/_sliderHome2';
+@import 'partials/_pageSlider';
+@import 'partials/_responsive';
 @import 'pages/_services';
 @import 'pages/_portfolio';
 @import 'pages/_about';

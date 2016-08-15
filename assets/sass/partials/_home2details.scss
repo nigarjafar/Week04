@@ -48,7 +48,8 @@
         background:$main-color;
         .row{
             text-align:left;
-            i{
+            i{  margin-top:18px;
+                
                 border:1px solid $text-color;
                 &:hover{
                     background:$third-color;
